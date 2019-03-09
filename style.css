@@ -1,0 +1,81 @@
+/*style.css*/
+body{
+    background: #333 url('img/cutlery.jpg') center center no-repeat;
+    background-size: cover;
+    color: #532827;
+}
+.container{
+    width: 400px;
+    margin: 40px auto 0;
+    padding: 50px;
+    box-sizing: border-box;
+    background: url(img/paper-pattern.jpg);
+    background: 0 10px 15px 8px #000;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+h1{
+    margin: 0 0 25px;
+    padding: 0 0 25px;
+    border-bottom: solid 1px #ddd;
+}
+form{
+    text-align: left;
+}
+label{
+    display: block;
+    margin: 0 0 25px;
+    font-weight: bold;
+}
+input,select{
+    padding: 8px;
+    margin: 10px 0;
+    
+}
+input[type="text"]{
+    width: 90px;
+    
+}
+
+button{
+    background: #6c2726;
+    color: white;
+    border: none;
+    border-bottom: solid 4px #222;
+    font-size: 18px;
+    padding: 20px 30px;
+    width: 100%;
+}
+button:hover{
+    background: #4c2827;
+    border-color: #111;
+    cursor: pointer;
+}
+button:active{
+    position: relative;
+    top: 1px;
+}
+
+#totalTip{
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+#totalTip:before{
+    content: "Tip Amount";
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+sup{
+    font-size: 24px;
+/*    position: relative; sup has position relative by default so no need to put it explicily*/
+    top: -18px;
+}
+small{
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
